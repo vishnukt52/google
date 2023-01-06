@@ -1,0 +1,109 @@
+body{
+    background-color: white;
+    text-decoration: none;
+   
+}
+.main{
+    text-align: center;
+}
+
+.image{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+.input-type{
+    display: block;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    padding: 13px 30px;
+    border: .5px solid #d2d2d2;
+    border-radius: 30px;
+    
+    
+}
+input[type=text]:focus{
+    outline: 1px solid #fff;
+}
+.input-type:active{
+    border: none;
+    outline:none
+}
+.input-type:hover{
+    box-shadow: 0px 1px 5px 0px rgb(168, 168, 168);
+}
+.btn{
+    margin-top: 25px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 8px 15px;
+    border: none;
+    line-height: 24px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.btn:hover{
+    box-shadow: 0px 1px 5px 0px rgb(168, 168, 168);
+}
+.input-icons .icon {
+    position: absolute;
+    margin: auto;
+    margin-left: -291px;
+    
+}
+.input-icons .icons {
+    position: absolute;
+    margin: auto;
+    margin-left: 186px;
+    
+}
+.input-icons .iconss {
+    position: absolute;
+    margin: auto;
+    margin-left: 217px;
+    
+}
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 13px;
+    min-width: 40px;
+    margin-left: auto;
+}
+
+.icons {
+    padding: 13px;
+    min-width: 40px;
+    margin-left: auto;
+}
+
+.iconss {
+    padding: 13px;
+    min-width: 40px;
+    margin-left: auto;
+}
+
+.lang{
+    text-decoration: none;
+    font-size: 14px;
+    margin-top:30px;
+}
+
+.land a{
+    margin-right: 10px;
+    text-decoration: none;
+}
